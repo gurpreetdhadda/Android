@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">Osler</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Osler</string>
+    <string name="Choose">Choose widget to launch</string>
+    <color name="white_background">#FFFFFF</color>
+    <string name="Welcome">Welcome to Osler Project</string>
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout01"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent"
+	android:layout_height="wrap_content" android:orientation="vertical" android:background="@color/white_background">
+	<TextView android:id="@+id/TextView02" android:layout_width="wrap_content"
+		android:layout_height="wrap_content"></TextView>
+	<TextView android:text="@string/Choose" android:id="@+id/TextView01" android:layout_width="wrap_content"
+		android:layout_height="wrap_content"></TextView>
+    <Button android:text="Average Waittime Chart" android:id="@+id/AverageWaitTime" android:layout_width="fill_parent"
+		android:layout_height="wrap_content"></Button>	
+	<Button android:text="Hourly Admission Discharge Chart" android:id="@+id/AdmisionDischarge" android:layout_width="fill_parent"
+		android:layout_height="wrap_content"></Button>
+	<Button android:text="Arrival Chart" android:id="@+id/Arrivals" android:layout_width="fill_parent"
+		android:layout_height="wrap_content"></Button>
+	<!-- <Button android:text="Map of Rooms" android:id="@+id/mapofrooms" android:layout_width="fill_parent"
+		android:layout_height="wrap_content"></Button> -->
+	<Button android:text="Units" android:id="@+id/Units" android:layout_width="fill_parent"
+		android:layout_height="wrap_content"></Button>
+	<Button android:text="Patients" android:id="@+id/patientroommapping" android:layout_width="fill_parent"
+		android:layout_height="wrap_content"></Button>
+	<Button android:text="Rooms" android:id="@+id/Rooms" android:layout_width="fill_parent"
+		android:layout_height="wrap_content"></Button>
+	<Button android:text="Clinical Pathway1" android:id="@+id/clinicalpathway1" android:layout_width="fill_parent"
+		android:layout_height="wrap_content"></Button>
+	<Button android:text="Clinical Pathway2" android:id="@+id/clinicalpathway2" android:layout_width="fill_parent"
+		android:layout_height="wrap_content"></Button>
+	<Button android:text="Clinical Pathway3" android:id="@+id/clinicalpathway3" android:layout_width="fill_parent"
+		android:layout_height="wrap_content"></Button>
+	<!--   <Button android:text="Quick Form Test Page" android:id="@+id/testpage" android:layout_width="fill_parent"
+		android:layout_height="wrap_content"></Button>-->
+</LinearLayout>
+</RelativeLayout>
+</ScrollView>
