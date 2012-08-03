@@ -43,14 +43,14 @@
  
      <TextView android:id="@+id/EventName"
          android:layout_width="170dip"
-         android:textColor="#acacac"
-          android:textSize="10sp"
+         android:textColor="#0f0f0f"
+          android:textSize="14sp"
          android:layout_height="wrap_content" android:layout_weight="1"/>
  
      <TextView  android:id="@+id/TimeStamp"
          android:layout_width="170dip"
-         android:textColor="#acacac"
-          android:textSize="10sp"
+         android:textColor="#0f0f0f"
+          android:textSize="14sp"
          android:layout_height="wrap_content" android:layout_weight="1"/>
  
 

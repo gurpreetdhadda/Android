@@ -45,9 +45,10 @@ public final class R {
         public static final int footer=0x7f080007;
         public static final int header=0x7f080006;
         public static final int link_to_Osler=0x7f080008;
-        public static final int menu_settings=0x7f08001c;
+        public static final int menu_settings=0x7f08001d;
         public static final int patientid=0x7f080001;
         public static final int patientroommapping=0x7f080011;
+        public static final int spinner1=0x7f08001c;
         public static final int waitstate=0x7f080002;
         public static final int webView1=0x7f080000;
     }
@@ -62,6 +63,7 @@ public final class R {
         public static final int oslarhome=0x7f030007;
         public static final int patientlistview=0x7f030008;
         public static final int states=0x7f030009;
+        public static final int test=0x7f03000a;
     }
     public static final class menu {
         public static final int activity_main=0x7f070000;

@@ -57,26 +57,26 @@
  
      <TextView android:id="@+id/StateName"
          android:layout_width="180dip"
-         android:textColor="#acacac"
-          android:textSize="9sp"
+         android:textColor="#0f0f0f"
+          android:textSize="12sp"
          android:layout_height="wrap_content" android:layout_weight="1"/>
  
      <TextView  android:id="@+id/StartTime"
          android:layout_width="130dip"
-         android:textColor="#acacac"
-          android:textSize="8sp"
+         android:textColor="#0f0f0f"
+          android:textSize="12sp"
          android:layout_height="wrap_content" android:layout_weight="1"/>
  
           <TextView  android:id="@+id/EndTime"
          android:layout_width="130dip"
-         android:textColor="#acacac"
-          android:textSize="8sp"
+         android:textColor="#0f0f0f"
+          android:textSize="12sp"
          android:layout_height="wrap_content" android:layout_weight="1"/>
           
                <TextView  android:id="@+id/Duration"
          android:layout_width="40dip"
-         android:textColor="#acacac"
-          android:textSize="8sp"
+         android:textColor="#0f0f0f"
+          android:textSize="12sp"
          android:layout_height="wrap_content" android:layout_weight="1"/>
 
 

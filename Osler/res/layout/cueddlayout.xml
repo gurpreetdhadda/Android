@@ -48,19 +48,19 @@
  
      <TextView android:id="@+id/patientid"
          android:layout_width="70dip"
-         android:textColor="#acacac"
-          android:textSize="10sp"
+         android:textColor="#0f0f0f"
+          android:textSize="12sp"
          android:layout_height="wrap_content" android:layout_weight="1"/>
  
      <TextView android:id="@+id/waitstate"
          android:layout_width="170dip"
-         android:textColor="#acacac"
-          android:textSize="10sp"
+         android:textColor="#0f0f0f"
+          android:textSize="12sp"
          android:layout_height="wrap_content" android:layout_weight="1"/>
  
      <TextView android:id="@+id/duration"
          android:layout_width="60dip"
-         android:textColor="#acacac"
-          android:textSize="10sp"
+         android:textColor="#0f0f0f"
+          android:textSize="12sp"
          android:layout_height="wrap_content"  android:layout_weight="1"/>
 </LinearLayout>
