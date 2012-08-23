@@ -18,12 +18,10 @@ public class MainActivity extends Activity {
   		super.onCreate(savedInstanceState);
   		setContentView(R.layout.mainactivity);
   		
-  		TextView registerScreen = (TextView) findViewById(R.id.link_to_Osler);
-	        // Listening to register new account link
-	        registerScreen.setOnClickListener(new View.OnClickListener() {
+  		TextView home = (TextView) findViewById(R.id.link_to_Osler);
+  		home.setOnClickListener(new View.OnClickListener() {
 				
 				public void onClick(View v) {
-					// Switching to Register screen
 					Intent i = new Intent(getApplicationContext(), OslarHome.class);
 					startActivity(i);
 				}

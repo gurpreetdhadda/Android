@@ -129,7 +129,8 @@ public class HourlyAdmissionDischargeChart extends Activity {
 							
 							 mWebView = (WebView) findViewById(R.id.webView1);
 						     String url = "https://chart.googleapis.com/chart?cht=bvg&chbh=r,.1,1&chd=t:" +Admissions+ "|" + Discharges+ "&chco=0000FF,FF0000&chs=500x350&chxt=x,y&chxr=1,0,23|1,0,"+max+"&chds=0,"+max+",0,"+max+",0,24,0,24&chm=o,000000,2,,10|s,000000,3,,10&chdl=ADMISSION|DISCHARGE";
-						        mWebView.loadUrl(url);
+						     System.out.println(url);  
+						     mWebView.loadUrl(url);
 												        
 		}
 		catch (JSONException e) {

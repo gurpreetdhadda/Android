@@ -10,6 +10,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
+import android.widget.TextView;
 
 public class OslarHome extends Activity {
     @Override
@@ -27,6 +28,18 @@ public class OslarHome extends Activity {
         final Button clinicalpathway2 = (Button) findViewById(R.id.clinicalpathway2);
         final Button clinicalpathway3 = (Button) findViewById(R.id.clinicalpathway3);
         
+        /*
+         TextView AverageWaitTimeChart = (TextView) findViewById(R.id.AverageWaitTime);
+         TextView original = (TextView) findViewById(R.id.AdmisionDischarge);
+         TextView theMissing = (TextView) findViewById(R.id.Arrivals);
+        //final TextView mapofrooms = (TextView) findViewById(R.id.mapofrooms);
+         TextView units = (TextView) findViewById(R.id.Units);
+         TextView patientroommapping = (TextView) findViewById(R.id.patientroommapping);
+         TextView rooms = (TextView) findViewById(R.id.Rooms);
+         TextView clinicalpathway1 = (TextView) findViewById(R.id.clinicalpathway1);
+         TextView clinicalpathway2 = (TextView) findViewById(R.id.clinicalpathway2);
+         TextView clinicalpathway3 = (TextView) findViewById(R.id.clinicalpathway3); 
+         */
         
     	// flag for Internet connection status
 

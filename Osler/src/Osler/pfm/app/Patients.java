@@ -80,7 +80,7 @@ public class Patients extends ListActivity {
 		}
         
         ListAdapter adapter = new SimpleAdapter(this, contactList,
-				R.layout.patientlistview,
+				R.layout.patienthome,
 				new String[] { TAG_PATIENTID, TAG_ROOMID}, new int[] {
 						R.id.PatiendId, R.id.RoomNo });
 
